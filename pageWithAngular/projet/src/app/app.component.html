@@ -14,7 +14,7 @@
 </agm-map>
 
 <br>
-<p>Votre premiere fois... choisissez l'un de nos trajet par default</p>
+<p>Votre premiere fois? ...choisissez l'un de nos trajet par défault</p>
   <table>
 
     <tr>
@@ -29,7 +29,6 @@
       <td>description1</td> 
     </tr>
 
-
     <tr>
         <td><button type="button" (click)="setDirection()">set</button></td>
         <td>nom2</td>
@@ -41,9 +40,33 @@
           <td><button type="button" (click)="setDirection()">set</button></td>
           <td>nom3</td>
           <td>description3</td>
-        </tr>
-
+        </tr>   
   </table>
+
+<p>Vous pouvez aussi personnaliser votre propre trajet!</p>
+
+<h6>
+  <div>
+    <form>
+      Murales: <input type="checkbox" ng-model="myVar">
+      Monument: <input type="checkbox" ng-model="myVar">
+      Lieux Culturels: <input type="checkbox" ng-model="myVar">
+      Musées: <input type="checkbox" ng-model="myVar">
+    </form>
+    <form>
+      Select a topic:
+      <select ng-model="myVar">
+        <option value="">
+        <option value="30 minutes">30 minutes
+        <option value="1 heure">1 heure
+        <option value="2 heures">2 heures
+        <option value="4 heures">4 heures
+        <option value="8 heures">8 heures
+      </select>
+    </form>
+  </div>
+</h6>
+
 	<h2 class="baniere"> <strong>
     Creer par l'équipe Droom Toom <br>
     Olivier Clermont <br>
