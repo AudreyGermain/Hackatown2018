@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DROOM TOOM';
+  title = 'Your City As Art';
   MapLocation = 'Welcome to down-town Montreal ... your new museum!';
   lat: number = 45.509881;
   lng: number =  -73.563838;
