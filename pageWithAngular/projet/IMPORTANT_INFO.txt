@@ -1,0 +1,7 @@
+IMPORTANT
+
+utiliser le  *ahead of time compiler* pour lancer la compilation du site web pour eviter les problemes avec le agm-direction package .
+
+Commande : $ng serve --aot
+
+Voir https://angular.io/guide/aot-compiler pour plus d'information.
