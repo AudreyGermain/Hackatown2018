@@ -10,7 +10,7 @@ export class AppComponent {
   MapLocation = 'Welcome to down-town Montreal ... your new museum!';
   lat: number = 45.509881;
   lng: number =  -73.563838;
-  zoom: number = 15;
+  zoom: number = 12;
   dir = undefined;
 
   public setDirection() {
