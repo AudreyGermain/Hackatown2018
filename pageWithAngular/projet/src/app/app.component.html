@@ -6,7 +6,7 @@
   </h1>
   <br>
 </div>
-  <h2><p><i> {{ MapLocation }} </i></p></h2>
+  <h2><i> {{ MapLocation }} </i></h2>
 
 <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
   <agm-direction *ngIf="dir" [origin]="dir.origin" [destination]="dir.destination"></agm-direction>
@@ -199,21 +199,21 @@
 
     <tr>
       <td><button type="button" (click)="setDirection()">set</button></td>
-      <td>nom1</td>
-      <td>description1</td> 
+      <td>Promenade du Fleuve</td>
+      <td>Promenade artistique des murales situées en bordure du fleuve St-Laurent</td> 
     </tr>
 
     <tr>
         <td><button type="button" (click)="setDirection()">set</button></td>
-        <td>nom2</td>
-        <td>description2</td>
+        <td>Le centre-ville en art</td>
+        <td>Visite du centre-ville passant à côté de plusieurs murales</td>
       </tr>
 
 
       <tr>
           <td><button type="button" (click)="setDirection()">set</button></td>
-          <td>nom3</td>
-          <td>description3</td>
+          <td>Marche rapide</td>
+          <td>Chemin d'environ 30 minutes qui permet de découvrir plusieurs murales </td>
         </tr>   
   </table>
 <br> <br>
@@ -247,14 +247,15 @@
   </div>
 </h6>
 
-	<h2 class="baniere"> <strong>
-    Creer par l'équipe Droom Toom <br>
+	<h3> <strong>
+    Créée par l'équipe Droom Toom <br>
     Olivier Clermont <br>
     Pascal Chayer <br>
     Audrey Germain <br>
-    Simren Matharoo <br>
+    Simren Matharoo
   </strong>
-</h2>
+</h3>
+<h3 class="baniere"><br><br><br><br><br></h3>
 
 
 </div>
