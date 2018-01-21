@@ -19,3 +19,7 @@ h1 {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+agm-map {
+  height: 500px;
+}

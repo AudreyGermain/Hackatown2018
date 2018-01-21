@@ -3,9 +3,9 @@
   <h1>
     {{ title }}
   </h1>
-  <h2><p><i>description du site <br> wowowowowowowowow</i></p></h2>
+  <h2><p><i>description du site <br> {{ MapLocation }} </i></p></h2>
 
-  
+
 
   <table>
     <tr>
@@ -31,3 +31,7 @@
   </table>
 
 </div>
+
+<agm-map [latitude]="lat" [longitude]="lng">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>
