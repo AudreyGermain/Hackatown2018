@@ -1,17 +1,5 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div id= tocenter>
-  <div class="baniere">
-  <h1>
-    {{ title }}
-  </h1>
-  <br>
-</div>
-  <h2><p><i> {{ MapLocation }} </i></p></h2>
-
-<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
-  <agm-direction *ngIf="dir" [origin]="dir.origin" [destination]="dir.destination"></agm-direction>
-  <agm-marker [latitude]=45.580410 [longitude]=-73.626618>  </agm-marker>
-  <agm-marker [latitude]=45.506855 [longitude]=-73.558029></agm-marker>
+<agm-marker [latitude]=﻿45.580410 [longitude]=-73.622218></agm-marker>
+<agm-marker [latitude]=45.506855 [longitude]=-73.558029></agm-marker>
 <agm-marker [latitude]=45.515387 [longitude]=-73.571347></agm-marker>
 <agm-marker [latitude]=45.539966 [longitude]=-73.614816></agm-marker>
 <agm-marker [latitude]=45.555841 [longitude]=-73.616364></agm-marker>
@@ -184,71 +172,18 @@
 <agm-marker [latitude]=45.506790 [longitude]=-73.574046></agm-marker>
 <agm-marker [latitude]=45.535906 [longitude]=-73.604726></agm-marker>
 <agm-marker [latitude]=45.539450 [longitude]=-73.610337></agm-marker>
-
-</agm-map>
-
-<br>
-<p>Votre premiere fois? ...choisissez l'un de nos trajet par défault</p>
-  <table>
-
-    <tr>
-      <th>trajet</th>
-      <th>nom</th>
-      <th>description</th>
-    </tr>
-
-    <tr>
-      <td><button type="button" (click)="setDirection()">set</button></td>
-      <td>nom1</td>
-      <td>description1</td> 
-    </tr>
-
-    <tr>
-        <td><button type="button" (click)="setDirection()">set</button></td>
-        <td>nom2</td>
-        <td>description2</td>
-      </tr>
-
-
-      <tr>
-          <td><button type="button" (click)="setDirection()">set</button></td>
-          <td>nom3</td>
-          <td>description3</td>
-        </tr>   
-  </table>
-
-<p>Vous pouvez aussi personnaliser votre propre trajet!</p>
-
-<h6>
-  <div>
-    <form>
-      Murales: <input type="checkbox" ng-model="myVar">
-      Monument: <input type="checkbox" ng-model="myVar">
-      Lieux Culturels: <input type="checkbox" ng-model="myVar">
-      Musées: <input type="checkbox" ng-model="myVar">
-    </form>
-    <form>
-      Select a topic:
-      <select ng-model="myVar">
-        <option value="">
-        <option value="30 minutes">30 minutes
-        <option value="1 heure">1 heure
-        <option value="2 heures">2 heures
-        <option value="4 heures">4 heures
-        <option value="8 heures">8 heures
-      </select>
-    </form>
-  </div>
-</h6>
-
-	<h2 class="baniere"> <strong>
-    Creer par l'équipe Droom Toom <br>
-    Olivier Clermont <br>
-    Pascal Chayer <br>
-    Audrey Germain <br>
-    Simren Matharoo <br>
-  </strong>
-</h2>
-
-
-</div>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
+<agm-marker [latitude]= [longitude]=></agm-marker>
