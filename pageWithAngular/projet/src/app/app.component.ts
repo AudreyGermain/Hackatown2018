@@ -15,8 +15,8 @@ export class AppComponent {
 
   public getDirection() {
     this.dir = {
-      origin: {lat: , lng: }
-      destinaiton: {lat: , lng: }
+      origin: {lat: 45.580410, lng: -73.622218 }
+      destinaiton: {lat: 45.506855, lng: -73.558029 }
     }
   }
 
