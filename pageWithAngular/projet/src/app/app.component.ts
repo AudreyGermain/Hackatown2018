@@ -7,8 +7,8 @@ import {AllMarkersComponent} from './all-markers/all-markers.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Your City As Art';
-  Intro = 'Welcome to down-town Montreal ... your new museum!';
+  title = 'Votre ville, un art';
+  intro = 'Bienvenue à Montréal ... votre nouveau musée!';
 
   @ViewChild(AllMarkersComponent)
   allmarkers: AllMarkersComponent;
