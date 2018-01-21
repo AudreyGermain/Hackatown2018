@@ -9,8 +9,9 @@
   <h2><p><i> {{ MapLocation }} </i></p></h2>
 
 <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
-  <!--<agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>-->
+  <agm-direction *ngIf="dir" [origin]="dir.origin" [destination]="dir.destination"></agm-direction>
 </agm-map>
+
 <br>
   <table>
 
@@ -25,14 +26,14 @@
       <td>1</td>
       <td>nom1</td>
       <td>description1</td>
-      <td><button type="button" (click)="getDirection()">Get</button></td>
+      <td><button type="button" (click)="setDirection()">set</button></td>
     </tr>
 
     <tr>
         <td>2</td>
         <td>nom2</td>
         <td>description2</td>
-        <td><button type="button" (click)="getDirection()">Get</button></td>
+        <td><button type="button" (click)="setDirection()">set</button></td>
       </tr>
 
 
@@ -40,7 +41,7 @@
           <td>3</td>
           <td>nom3</td>
           <td>description3</td>
-        <td><button type="button" (click)="getDirection()">Get</button></td>
+        <td><button type="button" (click)="setDirection()">set</button></td>
         </tr>
 
   </table>

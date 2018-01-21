@@ -13,10 +13,10 @@ export class AppComponent {
   zoom: number = 15;
   dir = undefined;
 
-  public getDirection() {
+  public setDirection() {
     this.dir = {
-      origin: {lat: 45.580410, lng: -73.622218 }
-      destinaiton: {lat: 45.506855, lng: -73.558029 }
+      origin: { lat: 45.580410, lng: -73.622218 },
+      destinaiton: { lat: 45.506855, lng: -73.558029 }
     }
   }
 
