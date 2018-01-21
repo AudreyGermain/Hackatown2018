@@ -1,7 +1,7 @@
 #tocenter{
   text-align: center;
 }
-#title{
+.baniere{
   background-image: url("city.png");
 
 }
@@ -26,7 +26,9 @@ h1 {
     text-align: left;
     padding: 8px;
 }
-
+tr:nth-child(odd){
+    background-color: white; 
+}
 tr:nth-child(even) {
     background-color: #dddddd;
 }
@@ -34,4 +36,9 @@ tr:nth-child(even) {
 agm-map {
   height: 620px;
 
+}
+
+#marge{
+  margin-top: 100000px;
+  margin-bottom: 100000px;
 }
