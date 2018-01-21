@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+﻿import { Component, ViewChild } from '@angular/core';
+import {AllMarkersComponent} from './all-markers/all-markers.component';
 
 @Component({
   selector: 'app-root',
@@ -6,18 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Votre ville, un art';
-  MapLocation = 'Bienvenue à Montréal ... votre nouveau musée!';
-  lat: number = 45.509881;
-  lng: number =  -73.563838;
-  zoom: number = 12;
-  dir = undefined;
+  title = 'Your City As Art';
+  Intro = 'Welcome to down-town Montreal ... your new museum!';
 
-  public setDirection() {
-    this.dir = {
-      origin: { lat: 45.580410, lng: -73.622218 },
-      destinaiton: { lat: 45.506855, lng: -73.558029 }
-    }
+  @ViewChild(AllMarkersComponent)
+  allmarkers: AllMarkersComponent;
+
+  public setDirection(){
+    this.allmarkers.setDirection();
   }
+
 
 }

@@ -1,18 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
 import { AgmCoreModule } from '@agm/core';
 import { AgmDirectionModule } from 'agm-direction';
 
 import { AppComponent } from './app.component';
-import { MuralesComponent } from './murales/murales.component';
-import { MarkersComponent } from './markers/markers.component';
+import { AllMarkersComponent } from './all-markers/all-markers.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MuralesComponent,
-    MarkersComponent
+
+    AllMarkersComponent
   ],
   imports: [
     BrowserModule,
