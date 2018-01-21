@@ -1,5 +1,13 @@
+#tocenter{
+  text-align: center;
+}
+#title{
+  background-image: url("city.png");
+
+}
+
 h1 {
-    color: rgb(34, 139, 34);
+    color: rgb(145, 110, 205);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
   }
