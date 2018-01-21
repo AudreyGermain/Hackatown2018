@@ -5,8 +5,10 @@
   </h1>
   <h2><p><i> {{ MapLocation }} </i></p></h2>
 
-
-
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+  <!--<agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>-->
+</agm-map>
+<br>
   <table>
     <tr>
       <th>numero</th>
@@ -32,6 +34,4 @@
 
 </div>
 
-<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
-  <!--<agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>-->
-</agm-map>
+
