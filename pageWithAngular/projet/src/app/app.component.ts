@@ -11,4 +11,13 @@ export class AppComponent {
   lat: number = 45.509881;
   lng: number =  -73.563838;
   zoom: number = 15;
+  dir = undefined;
+
+  public getDirection() {
+    this.dir = {
+      origin: {lat: , lng: }
+      destinaiton: {lat: , lng: }
+    }
+  }
+
 }
