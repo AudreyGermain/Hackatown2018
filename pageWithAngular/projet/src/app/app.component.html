@@ -187,7 +187,7 @@
 
 </agm-map>
 
-<br>
+<br> <br>
 <p>Votre premiere fois? ...choisissez l'un de nos trajet par défault</p>
   <table>
 
@@ -216,17 +216,21 @@
           <td>description3</td>
         </tr>   
   </table>
-
+<br> <br>
 <p>Vous pouvez aussi personnaliser votre propre trajet!</p>
 
 <h6>
   <div>
     <form>
       Murales: <input type="checkbox" ng-model="myVar">
-      Monument: <input type="checkbox" ng-model="myVar">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Monuments: <input type="checkbox" ng-model="myVar">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       Lieux Culturels: <input type="checkbox" ng-model="myVar">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       Musées: <input type="checkbox" ng-model="myVar">
     </form>
+    <br>
     <form>
       Select a topic:
       <select ng-model="myVar">
@@ -238,6 +242,8 @@
         <option value="8 heures">8 heures
       </select>
     </form>
+    <br>
+    <button type="button" (click)="setPath()">Générer un trajet</button>
   </div>
 </h6>
 
