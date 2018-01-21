@@ -5,12 +5,14 @@ import { AgmDirectionModule } from 'agm-direction';
 
 import { AppComponent } from './app.component';
 import { MuralesComponent } from './murales/murales.component';
+import { MarkersComponent } from './markers/markers.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MuralesComponent
+    MuralesComponent,
+    MarkersComponent
   ],
   imports: [
     BrowserModule,

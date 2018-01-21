@@ -10,13 +10,14 @@
 
 <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
   <agm-direction *ngIf="dir" [origin]="dir.origin" [destination]="dir.destination"></agm-direction>
+  <agm-marker [latitude]=45.580410 [longitude]=-73.626618>  </agm-marker>
 </agm-map>
 
 <br>
   <table>
 
     <tr>
-      <th>numero</th>
+      <th>numéro</th>
       <th>nom</th>
       <th>description</th>
       <th>Get city path</th>
