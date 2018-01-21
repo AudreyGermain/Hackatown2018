@@ -41,10 +41,6 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-agm-map {
-  height: 620px;
-
-}
 
 #marge{
   margin-top: 100000px;
