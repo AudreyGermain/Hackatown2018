@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
+import { MuralesComponent } from './murales/murales.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MuralesComponent
   ],
   imports: [
     BrowserModule,
